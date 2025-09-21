@@ -3,10 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Weather App</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <div id="app" >
+        <h1 class="title">Weather App</h1>
+        <input type="text" id="cityInput" placeholder="Enter city name">
+        <button id="getWeatherButton" onclick="getWeather()">Get Weather</button>
+        <div id="result"></div>
+    </div>
     <script src="script.js"></script>
 </body>
 </html>
